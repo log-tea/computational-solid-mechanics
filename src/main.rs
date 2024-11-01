@@ -1,7 +1,7 @@
 mod finite_element;
 
 extern crate nalgebra as na;
-use na::{ArrayStorage, Dynamic, Matrix, VecStorage, Vector3, U2, U3};
+use na::Vector3;
 use finite_element::lagrange::add;
 
 fn main() {
